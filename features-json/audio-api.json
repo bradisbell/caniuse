@@ -23,7 +23,7 @@
   ],
   "bugs":[
     {
-      "description":"Chrome for Android does not support the Web Audio API in conjunction with getUserMedia."
+      "description":"Chrome for Android <32.0 does not support the Web Audio API in conjunction with getUserMedia."
     }
   ],
   "categories":[
