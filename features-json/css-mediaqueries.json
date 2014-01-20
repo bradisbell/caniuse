@@ -9,16 +9,16 @@
       "title":"WebPlatform Docs"
     },
     {
-      "url":"https://github.com/scottjehl/Respond",
-      "title":"Polyfill for IE"
-    },
-    {
       "url":"http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries",
       "title":"Media Queries tutorial"
     },
     {
       "url":"http://ie.microsoft.com/testdrive/HTML5/85CSS3_MediaQueries/",
       "title":"IE demo page with information"
+    },
+    {
+      "url":"https://github.com/scottjehl/Respond",
+      "title":"Polyfill for IE"
     }
   ],
   "bugs":[
@@ -70,7 +70,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -102,7 +104,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"a",
@@ -129,7 +133,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"y",
@@ -176,7 +182,7 @@
     }
   },
   "notes":"Incomplete support by older webkit browsers refers to only acknowledging different media rules on page reload",
-  "usage_perc_y":85.42,
+  "usage_perc_y":85.62,
   "usage_perc_a":0.01,
   "ucprefix":false,
   "parent":"",

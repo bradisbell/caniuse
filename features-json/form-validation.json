@@ -55,7 +55,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -87,7 +89,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -114,7 +118,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -161,8 +167,8 @@
     }
   },
   "notes":"Partial support in Safari refers to lack of notice when form with required fields is attempted to be submitted. Partial support in IE10 mobile refers to lack of warning when blocking submission.",
-  "usage_perc_y":61.75,
-  "usage_perc_a":4.07,
+  "usage_perc_y":62.83,
+  "usage_perc_a":3.84,
   "ucprefix":false,
   "parent":"forms",
   "keywords":"",

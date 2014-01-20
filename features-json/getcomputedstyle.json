@@ -5,8 +5,8 @@
   "status":"rec",
   "links":[
     {
-      "url":"http://ie.microsoft.com/testdrive/HTML5/getComputedStyle/",
-      "title":"Demo"
+      "url":"https://developer.mozilla.org/en/DOM/window.getComputedStyle",
+      "title":"MDN article"
     },
     {
       "url":"http://snipplr.com/view/13523/",
@@ -17,17 +17,17 @@
       "title":"WebPlatform Docs"
     },
     {
-      "url":"https://developer.mozilla.org/en/DOM/window.getComputedStyle",
-      "title":"MDN article"
+      "url":"http://ie.microsoft.com/testdrive/HTML5/getComputedStyle/",
+      "title":"Demo"
     }
   ],
   "bugs":[
     
   ],
   "categories":[
+    "DOM",
     "JS API",
-    "CSS3",
-    "DOM"
+    "CSS3"
   ],
   "stats":{
     "ie":{
@@ -67,7 +67,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"a",
@@ -99,7 +101,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"a",
@@ -126,7 +130,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -173,8 +179,8 @@
     }
   },
   "notes":"Partial support in older Firefox versions refers to requiring the second parameter to be included. Partial support in all other browsers refers to not supporting getComputedStyle on pseudo-elements.",
-  "usage_perc_y":78.53,
-  "usage_perc_a":7,
+  "usage_perc_y":79.47,
+  "usage_perc_a":6.26,
   "ucprefix":false,
   "parent":"",
   "keywords":"",

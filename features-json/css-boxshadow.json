@@ -9,20 +9,20 @@
       "title":"WebPlatform Docs"
     },
     {
-      "url":"http://www.css3files.com/shadow/",
-      "title":"Information page"
-    },
-    {
-      "url":"http://tests.themasta.com/blogstuff/boxshadowdemo.html",
-      "title":"Demo of various effects"
-    },
-    {
       "url":"https://developer.mozilla.org/En/CSS/-moz-box-shadow",
       "title":"MDN article"
     },
     {
+      "url":"http://www.css3files.com/shadow/",
+      "title":"Information page"
+    },
+    {
       "url":"http://westciv.com/tools/boxshadows/index.html",
       "title":"Live editor"
+    },
+    {
+      "url":"http://tests.themasta.com/blogstuff/boxshadowdemo.html",
+      "title":"Demo of various effects"
     }
   ],
   "bugs":[
@@ -74,7 +74,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y x",
@@ -106,7 +108,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"a x",
@@ -133,7 +137,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"a x",
@@ -180,8 +186,8 @@
     }
   },
   "notes":"Can be partially emulated in older IE versions using the non-standard \"shadow\" filter. Partial support in Safari, iOS Safari and Android Browser refers to missing \"inset\" and blur radius value support.",
-  "usage_perc_y":79.27,
-  "usage_perc_a":1.55,
+  "usage_perc_y":80.19,
+  "usage_perc_a":1.76,
   "ucprefix":false,
   "parent":"",
   "keywords":"box-shadows,boxshadows,box shadow,shaow",

@@ -5,12 +5,12 @@
   "status":"wd",
   "links":[
     {
-      "url":"https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver",
-      "title":"MutationObserver from MDN"
-    },
-    {
       "url":"https://github.com/Polymer/MutationObservers",
       "title":"Polyfill"
+    },
+    {
+      "url":"https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver",
+      "title":"MutationObserver from MDN"
     }
   ],
   "bugs":[
@@ -19,8 +19,8 @@
     }
   ],
   "categories":[
-    "DOM",
-    "JS API"
+    "JS API",
+    "DOM"
   ],
   "stats":{
     "ie":{
@@ -60,7 +60,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -92,7 +94,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -119,7 +123,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -166,7 +172,7 @@
     }
   },
   "notes":"When the content of a node with a single CharacterData child node is changed by innerHTML attribute and the node have a single different one as a result, WebKit browsers consider it as a characterData mutation of the child CharacterData node, while other browsers think it as a childList mutation of the parent node.",
-  "usage_perc_y":54.8,
+  "usage_perc_y":63.13,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

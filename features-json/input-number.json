@@ -5,8 +5,8 @@
   "status":"wd",
   "links":[
     {
-      "url":"https://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-number",
-      "title":"has.js test"
+      "url":"http://www.html5tutorial.info/html5-number.php",
+      "title":"Tutorial"
     },
     {
       "url":"https://github.com/jonstipe/number-polyfill",
@@ -17,8 +17,8 @@
       "title":"WebPlatform Docs"
     },
     {
-      "url":"http://www.html5tutorial.info/html5-number.php",
-      "title":"Tutorial"
+      "url":"https://raw.github.com/phiggins42/has.js/master/detect/form.js#input-type-number",
+      "title":"has.js test"
     }
   ],
   "bugs":[
@@ -65,7 +65,9 @@
       "24":"n",
       "25":"n",
       "26":"n",
-      "27":"n"
+      "27":"n",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -97,7 +99,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -124,7 +128,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -171,8 +177,8 @@
     }
   },
   "notes":"iOS Safari, Android 4 and Chrome for Android show number input, but do not use \"step\", \"min\" or \"max\" attributes or show increment/decrement buttons. Internet Explorer 10 does not show increment/decrement buttons.",
-  "usage_perc_y":38.44,
-  "usage_perc_a":20.1,
+  "usage_perc_y":39.49,
+  "usage_perc_a":21.61,
   "ucprefix":false,
   "parent":"forms",
   "keywords":"spinner",

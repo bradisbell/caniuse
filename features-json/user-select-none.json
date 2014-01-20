@@ -5,16 +5,16 @@
   "status":"unoff",
   "links":[
     {
-      "url":"http://msdn.microsoft.com/en-us/library/ie/hh781492(v=vs.85).aspx",
-      "title":"MSDN Documentation"
-    },
-    {
       "url":"http://css-tricks.com/almanac/properties/u/user-select/",
       "title":"CSS Tricks article"
     },
     {
       "url":"https://developer.mozilla.org/en-US/docs/CSS/user-select",
       "title":"MDN article"
+    },
+    {
+      "url":"http://msdn.microsoft.com/en-us/library/ie/hh781492(v=vs.85).aspx",
+      "title":"MSDN Documentation"
     }
   ],
   "bugs":[
@@ -61,7 +61,9 @@
       "24":"y x",
       "25":"y x",
       "26":"y x",
-      "27":"y x"
+      "27":"y x",
+      "28":"y x",
+      "29":"y x"
     },
     "chrome":{
       "4":"u",
@@ -93,7 +95,9 @@
       "30":"y x",
       "31":"y x",
       "32":"y x",
-      "33":"y x"
+      "33":"y x",
+      "34":"y x",
+      "35":"y x"
     },
     "safari":{
       "3.1":"y x",
@@ -120,7 +124,9 @@
       "15":"y x",
       "16":"y x",
       "17":"y x",
-      "18":"y x"
+      "18":"y x",
+      "19":"y x",
+      "20":"y x"
     },
     "ios_saf":{
       "3.2":"y x",
@@ -167,7 +173,7 @@
     }
   },
   "notes":"Currently the user-select property does not appear in any W3C specification. Support information here is only for \"none\" value, not others.",
-  "usage_perc_y":74.91,
+  "usage_perc_y":77.88,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

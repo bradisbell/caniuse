@@ -1,7 +1,9 @@
 # Contributing to the caniuse data
 
-The features-json directory includes JSON files for every feature found on the caniuse.com website.
+The `features-json` directory includes JSON files for every feature found on [the caniuse.com website](http://caniuse.com/).
 Maintaining these files on GitHub allows anyone to update or contribute to the support data on the site.
+
+**Note:** when submitting a patch, don’t modify the minified `data.json` file in the root — that is done automatically. Only modify the contents of the `features-json` directory.
 
 ## How it works
 
@@ -37,10 +39,10 @@ Currently the following feature information can be modified:
 	* `Canvas`
 	* `DOM`
 	* `Other`
-* **stats** — The collection of support data for a given set of browsers/versions. Only the support value strings can be modified. Values are space-separated characters with these meanings:
-	* `y` - (**Y**)es, supported
+* **stats** — The collection of support data for a given set of browsers/versions. Only the support value strings can be modified. Values are space-separated characters with these meanings, and must answer the question "*Can I use* the feature by default?":
+	* `y` - (**Y**)es, supported by default
 	* `a` - (**A**)lmost supported (aka Partial support)
-	* `n` - (**N**)o support
+	* `n` - (**N**)o support, or disabled by default
 	* `p` - No support, but has (**P**)olyfill
 	* `u` - Support (**u**)nknown
 	* `x` - Requires prefi(**x**) to work 

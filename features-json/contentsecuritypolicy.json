@@ -62,7 +62,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -94,7 +96,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -104,7 +108,7 @@
       "5.1":"a x",
       "6":"y x",
       "6.1":"y x",
-      "7":"y x"
+      "7":"y"
     },
     "opera":{
       "9":"n",
@@ -121,7 +125,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -129,7 +135,7 @@
       "4.2-4.3":"n",
       "5.0-5.1":"a x",
       "6.0-6.1":"y x",
-      "7.0":"y x"
+      "7.0":"y"
     },
     "op_mini":{
       "5.0-7.0":"n"
@@ -167,9 +173,9 @@
       "10":"a x"
     }
   },
-  "notes":"The HTTP header is 'X-Content-Security-Policy' for Firefox and IE 10&11, and 'X-WebKit-CSP' for Safari and Chrome. IE 10&11's support is limited to the 'sandbox' directive.",
-  "usage_perc_y":55.74,
-  "usage_perc_a":12.68,
+  "notes":"The HTTP header is 'X-Content-Security-Policy' for Firefox until version 23 and IE10&11, and 'X-Webkit-CSP' for Chrome until version 25 and Safari until version 7. 'Content-Security-Policy' is the official W3C defined header, used by Chrome version 25 and later, Firefox version 23 and later, and Safari 7 and later.",
+  "usage_perc_y":58.71,
+  "usage_perc_a":11.59,
   "ucprefix":false,
   "parent":"",
   "keywords":"csp,security,header",

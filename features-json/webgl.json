@@ -9,12 +9,12 @@
       "title":"Instructions on enabling WebGL"
     },
     {
-      "url":"http://hacks.mozilla.org/2009/12/webgl-draft-released-today/",
-      "title":"Firefox blog post"
-    },
-    {
       "url":"http://iewebgl.com/",
       "title":"Polyfill for IE"
+    },
+    {
+      "url":"http://hacks.mozilla.org/2009/12/webgl-draft-released-today/",
+      "title":"Firefox blog post"
     },
     {
       "url":"http://webkit.org/blog/603/webgl-now-available-in-webkit-nightlies/",
@@ -69,7 +69,9 @@
       "24":"a",
       "25":"a",
       "26":"a",
-      "27":"a"
+      "27":"a",
+      "28":"a",
+      "29":"a"
     },
     "chrome":{
       "4":"n",
@@ -101,7 +103,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -128,7 +132,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -165,18 +171,18 @@
       "0":"y"
     },
     "and_chr":{
-      "0":"n"
+      "0":"a"
     },
     "and_ff":{
-      "0":"y"
+      "0":"a"
     },
     "ie_mob":{
       "10":"p"
     }
   },
-  "notes":"Support listed as \"partial\" refers to the fact that not all users with these browsers have WebGL access. This is due to the additional requirement for users to have <a href=\"http://www.khronos.org/webgl/wiki/BlacklistsAndWhitelists\">up to date video drivers</a>. This problem was <a href=\"http://blog.chromium.org/2012/02/gpu-accelerating-2d-canvas-and-enabling.html\">solved in Chrome</a> as of version 18.\r\n\r\nNote that WebGL is part of the <a href=\"http://www.khronos.org/webgl/\">Khronos Group</a>, not the W3C. On Chrome for Android, WebGL is disabled by default, but can be enabled by enabling the \"Enable WebGL\" flag under chrome://flags",
-  "usage_perc_y":33.4,
-  "usage_perc_a":19.68,
+  "notes":"Support listed as \"partial\" refers to the fact that not all users with these browsers have WebGL access. This is due to the additional requirement for users to have <a href=\"http://www.khronos.org/webgl/wiki/BlacklistsAndWhitelists\">up to date video drivers</a>. This problem was <a href=\"http://blog.chromium.org/2012/02/gpu-accelerating-2d-canvas-and-enabling.html\">solved in Chrome</a> as of version 18.\r\n\r\nNote that WebGL is part of the <a href=\"http://www.khronos.org/webgl/\">Khronos Group</a>, not the W3C.",
+  "usage_perc_y":39.99,
+  "usage_perc_a":21.38,
   "ucprefix":false,
   "parent":"canvas",
   "keywords":"web gl",

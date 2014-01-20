@@ -5,8 +5,8 @@
   "status":"cr",
   "links":[
     {
-      "url":"http://zufelt.ca/blog/are-you-confused-html5-and-wai-aria-yet",
-      "title":"HTML5/WAI-ARIA information"
+      "url":"http://www.w3.org/WAI/intro/aria",
+      "title":"Information page"
     },
     {
       "url":"http://www.paciellogroup.com/blog/2011/10/browser-assistive-technology-tests-redux/",
@@ -21,8 +21,8 @@
       "title":"ALA Article"
     },
     {
-      "url":"http://www.w3.org/WAI/intro/aria",
-      "title":"Information page"
+      "url":"http://zufelt.ca/blog/are-you-confused-html5-and-wai-aria-yet",
+      "title":"HTML5/WAI-ARIA information"
     }
   ],
   "bugs":[
@@ -69,7 +69,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"a",
@@ -101,7 +103,9 @@
       "30":"a",
       "31":"a",
       "32":"a",
-      "33":"a"
+      "33":"a",
+      "34":"a",
+      "35":"a"
     },
     "safari":{
       "3.1":"n",
@@ -128,7 +132,9 @@
       "15":"a",
       "16":"a",
       "17":"a",
-      "18":"a"
+      "18":"a",
+      "19":"a",
+      "20":"a"
     },
     "ios_saf":{
       "3.2":"a",
@@ -175,8 +181,8 @@
     }
   },
   "notes":"",
-  "usage_perc_y":40.05,
-  "usage_perc_a":48.6,
+  "usage_perc_y":35.16,
+  "usage_perc_a":50.05,
   "ucprefix":false,
   "parent":"",
   "keywords":"wai,aria",

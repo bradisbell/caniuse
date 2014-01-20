@@ -5,20 +5,20 @@
   "status":"rec",
   "links":[
     {
-      "url":"http://www.mozilla.org/projects/mathml/demo/",
-      "title":"MathML demos"
-    },
-    {
-      "url":"https://developer.mozilla.org/en/MathML/Element",
-      "title":"MDN element reference"
-    },
-    {
       "url":"http://en.wikipedia.org/wiki/MathML",
       "title":"Wikipedia"
     },
     {
       "url":"http://www.mathjax.org",
       "title":"Cross-browser support script"
+    },
+    {
+      "url":"https://developer.mozilla.org/en/MathML/Element",
+      "title":"MDN element reference"
+    },
+    {
+      "url":"http://www.mozilla.org/projects/mathml/demo/",
+      "title":"MathML demos"
     }
   ],
   "bugs":[
@@ -65,7 +65,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"p",
@@ -97,7 +99,9 @@
       "30":"p",
       "31":"p",
       "32":"p",
-      "33":"p"
+      "33":"p",
+      "34":"p",
+      "35":"p"
     },
     "safari":{
       "3.1":"p",
@@ -124,7 +128,9 @@
       "15":"p",
       "16":"p",
       "17":"p",
-      "18":"p"
+      "18":"p",
+      "19":"p",
+      "20":"p"
     },
     "ios_saf":{
       "3.2":"p",
@@ -171,8 +177,8 @@
     }
   },
   "notes":"Opera's support is limited to a CSS profile of MathML. Support was added in Chrome 24, but removed afterwards due to instability.",
-  "usage_perc_y":23.15,
-  "usage_perc_a":0.63,
+  "usage_perc_y":23.84,
+  "usage_perc_a":0.6,
   "ucprefix":false,
   "parent":"",
   "keywords":"",

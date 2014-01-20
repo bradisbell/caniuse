@@ -5,12 +5,12 @@
   "status":"other",
   "links":[
     {
-      "url":"https://hacks.mozilla.org/2012/07/firefox-beta-15-supports-the-new-opus-audio-format/",
-      "title":"Introduction of Opus by Mozilla"
-    },
-    {
       "url":"http://www.ietf.org/mail-archive/web/rtcweb/current/msg04953.html",
       "title":"Google's statement about the use of VP8 and Opus codec for WebRTC standard"
+    },
+    {
+      "url":"https://hacks.mozilla.org/2012/07/firefox-beta-15-supports-the-new-opus-audio-format/",
+      "title":"Introduction of Opus by Mozilla"
     }
   ],
   "bugs":[
@@ -57,7 +57,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -89,7 +91,9 @@
       "30":"n",
       "31":"n",
       "32":"n",
-      "33":"n"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -116,7 +120,9 @@
       "15":"n",
       "16":"n",
       "17":"n",
-      "18":"n"
+      "18":"n",
+      "19":"n",
+      "20":"n"
     },
     "ios_saf":{
       "3.2":"n",
@@ -162,8 +168,8 @@
       "10":"n"
     }
   },
-  "notes":"Chrome does not support Opus by default but users can enable it via the 'enable-opus-playback' flag. When it comes to Opera, it is said that the Linux version may be able to play it when the GStreamer module is up to date and the served mime-type is 'audio/ogg'.",
-  "usage_perc_y":14.04,
+  "notes":"For Opera the Linux version may be able to play it when the GStreamer module is up to date and the served mime-type is 'audio/ogg'.",
+  "usage_perc_y":14.56,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"audio",

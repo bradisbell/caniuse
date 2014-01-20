@@ -56,7 +56,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"a",
@@ -88,7 +90,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -115,7 +119,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -162,8 +168,8 @@
     }
   },
   "notes":"Partial support in older Firefox and Opera Mini/Mobile refers to SVG images being blurry when scaled. Partial support in iOS Safari and older Safari versions refers to failing to support tiling or the background-position property.",
-  "usage_perc_y":75.45,
-  "usage_perc_a":8.2,
+  "usage_perc_y":77.52,
+  "usage_perc_a":6.18,
   "ucprefix":false,
   "parent":"",
   "keywords":"svg-in-css,svgincss,css-svg",

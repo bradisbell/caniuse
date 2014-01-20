@@ -5,20 +5,16 @@
   "status":"wd",
   "links":[
     {
-      "url":"https://github.com/3nr1c/jUri.js",
-      "title":"Polyfill for FormData object"
-    },
-    {
       "url":"http://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest",
       "title":"WebPlatform Docs"
     },
     {
-      "url":"https://developer.mozilla.org/en/XMLHttpRequest/FormData",
-      "title":"MDN article on FormData"
+      "url":"https://github.com/3nr1c/jUri.js",
+      "title":"Polyfill for FormData object"
     },
     {
-      "url":"http://www.profilepicture.co.uk/tutorials/ajax-file-upload-xmlhttprequest-level-2/",
-      "title":"Article with file upload demo"
+      "url":"https://developer.mozilla.org/en/XMLHttpRequest/FormData",
+      "title":"MDN article on FormData"
     }
   ],
   "bugs":[
@@ -71,7 +67,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"u",
@@ -103,7 +101,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -130,7 +130,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -177,8 +179,8 @@
     }
   },
   "notes":"",
-  "usage_perc_y":73.51,
-  "usage_perc_a":0.35,
+  "usage_perc_y":76.3,
+  "usage_perc_a":0.3,
   "ucprefix":false,
   "parent":"",
   "keywords":"formdata",

@@ -1,16 +1,16 @@
 {
   "title":"SVG in HTML img element",
   "description":"Method of displaying SVG images in HTML using &lt;img>",
-  "spec":"http://www.w3.org/TR/html5/embedded-content-1.html#the-img-element",
+  "spec":"http://www.w3.org/TR/html5/dom.html#embedded-content",
   "status":"cr",
   "links":[
     {
-      "url":"http://blog.dholbert.org/2010/10/svg-as-image.html",
-      "title":"Blog post with examples"
-    },
-    {
       "url":"http://www.codedread.com/blog/",
       "title":"Blog with SVGs an images"
+    },
+    {
+      "url":"http://blog.dholbert.org/2010/10/svg-as-image.html",
+      "title":"Blog post with examples"
     }
   ],
   "bugs":[
@@ -62,7 +62,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -94,7 +96,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -121,7 +125,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"a",
@@ -168,7 +174,7 @@
     }
   },
   "notes":"",
-  "usage_perc_y":83.65,
+  "usage_perc_y":83.7,
   "usage_perc_a":0.01,
   "ucprefix":false,
   "parent":"",

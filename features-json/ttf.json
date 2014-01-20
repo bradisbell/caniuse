@@ -53,7 +53,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -85,7 +87,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"y",
@@ -112,7 +116,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -159,8 +165,8 @@
     }
   },
   "notes":"Partial support in IE9 refers to the fonts only working <a href=\"http://blogs.msdn.com/b/ie/archive/2010/07/15/the-css-corner-better-web-typography-for-better-design.aspx\">when set to be \"installable\"</a>.",
-  "usage_perc_y":64.48,
-  "usage_perc_a":16.11,
+  "usage_perc_y":68.17,
+  "usage_perc_a":13.45,
   "ucprefix":false,
   "parent":"fontface",
   "keywords":"",

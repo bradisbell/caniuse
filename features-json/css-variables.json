@@ -1,33 +1,29 @@
 {
-  "title":"EOT - Embedded OpenType fonts",
-  "description":"Type of font that can be derived from a regular font, allowing small files and legal use of high-quality fonts. Usage is restricted by the file being tied to the website",
-  "spec":"http://www.w3.org/Submission/EOT/",
-  "status":"unoff",
+  "title":"CSS Variables",
+  "description":"Permits the declaration and usage of cascading variables in stylesheets.",
+  "spec":"http://www.w3.org/TR/css-variables/",
+  "status":"wd",
   "links":[
     {
-      "url":"http://www.microsoft.com/typography/web/embedding/default.aspx",
-      "title":"Example pages"
-    },
-    {
-      "url":"http://en.wikipedia.org/wiki/Embedded_OpenType",
-      "title":"Wikipedia"
+      "url":"https://hacks.mozilla.org/2013/12/css-variables-in-firefox-nightly/",
+      "title":"Mozilla hacks article"
     }
   ],
   "bugs":[
     
   ],
   "categories":[
-    "Other"
+    "CSS3"
   ],
   "stats":{
     "ie":{
       "5.5":"n",
-      "6":"y",
-      "7":"y",
-      "8":"y",
-      "9":"y",
-      "10":"y",
-      "11":"y"
+      "6":"n",
+      "7":"n",
+      "8":"n",
+      "9":"n",
+      "10":"n",
+      "11":"n"
     },
     "firefox":{
       "2":"n",
@@ -59,7 +55,7 @@
       "26":"n",
       "27":"n",
       "28":"n",
-      "29":"n"
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -92,8 +88,8 @@
       "31":"n",
       "32":"n",
       "33":"n",
-      "34":"n",
-      "35":"n"
+      "34":"u",
+      "35":"u"
     },
     "safari":{
       "3.1":"n",
@@ -168,11 +164,11 @@
       "10":"n"
     }
   },
-  "notes":"Proposal by Microsoft, being considered for W3C standardization.",
-  "usage_perc_y":19.83,
+  "notes":"",
+  "usage_perc_y":0,
   "usage_perc_a":0,
   "ucprefix":false,
-  "parent":"fontface",
-  "keywords":"",
+  "parent":"",
+  "keywords":"css variables",
   "shown":true
 }

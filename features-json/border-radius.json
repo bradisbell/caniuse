@@ -5,8 +5,16 @@
   "status":"cr",
   "links":[
     {
+      "url":"http://www.css3files.com/border/#borderradius",
+      "title":"Information page"
+    },
+    {
       "url":"http://muddledramblings.com/table-of-css3-border-radius-compliance",
       "title":"Detailed compliance table"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/css/properties/border-radius",
+      "title":"WebPlatform Docs"
     },
     {
       "url":"http://css3pie.com/",
@@ -15,14 +23,6 @@
     {
       "url":"http://border-radius.com",
       "title":"Border-radius CSS Generator"
-    },
-    {
-      "url":"http://docs.webplatform.org/wiki/css/properties/border-radius",
-      "title":"WebPlatform Docs"
-    },
-    {
-      "url":"http://www.css3files.com/border/#borderradius",
-      "title":"Information page"
     }
   ],
   "bugs":[
@@ -34,6 +34,9 @@
     },
     {
       "description":"The stock browser on the Samsung Galaxy S4 with Android 4.2 does not support the \"border-radius\" shorthand property but does support the long-hand properties for each corner like \"border-top-left-radius\"."
+    },
+    {
+      "description":"Safari does not apply border-radius correctly to image borders: http://stackoverflow.com/questions/17202128/rounded-cornes-border-radius-safari-issue"
     }
   ],
   "categories":[
@@ -77,7 +80,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y x",
@@ -109,7 +114,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"y x",
@@ -136,7 +143,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"y x",
@@ -183,7 +192,7 @@
     }
   },
   "notes":"",
-  "usage_perc_y":80.91,
+  "usage_perc_y":82.04,
   "usage_perc_a":0.02,
   "ucprefix":false,
   "parent":"",

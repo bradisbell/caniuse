@@ -5,10 +5,6 @@
   "status":"wd",
   "links":[
     {
-      "url":"https://github.com/g200kg/WAAPISim",
-      "title":"Polyfill to enable Web Audio API through Firefox Audio Data api or flash"
-    },
-    {
       "url":"http://docs.webplatform.org/wiki/apis/webaudio",
       "title":"WebPlatform Docs"
     },
@@ -19,10 +15,16 @@
     {
       "url":"https://github.com/corbanbrook/audionode.js",
       "title":"Polyfill to support Web Audio API in Firefox"
+    },
+    {
+      "url":"https://github.com/g200kg/WAAPISim",
+      "title":"Polyfill to enable Web Audio API through Firefox Audio Data api or flash"
     }
   ],
   "bugs":[
-    
+    {
+      "description":"Chrome for Android does not support the Web Audio API in conjunction with getUserMedia."
+    }
   ],
   "categories":[
     "JS API"
@@ -65,7 +67,9 @@
       "24":"n",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -97,7 +101,9 @@
       "30":"y x",
       "31":"y x",
       "32":"y x",
-      "33":"y x"
+      "33":"y x",
+      "34":"y x",
+      "35":"y x"
     },
     "safari":{
       "3.1":"n",
@@ -124,7 +130,9 @@
       "15":"y x",
       "16":"y x",
       "17":"y x",
-      "18":"y x"
+      "18":"y x",
+      "19":"y x",
+      "20":"y x"
     },
     "ios_saf":{
       "3.2":"n",
@@ -171,7 +179,7 @@
     }
   },
   "notes":"Firefox versions < 25 support an alternative, deprecated audio API.",
-  "usage_perc_y":41.68,
+  "usage_perc_y":56.37,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

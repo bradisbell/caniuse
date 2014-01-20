@@ -22,6 +22,9 @@
     },
     {
       "description":"Viewport units don't work on WebKit for fonts after resizing the window."
+    },
+    {
+      "description":"iOS 6-7 has a problem with <a href=\"https://github.com/scottjehl/Device-Bugs/issues/36\">viewport units and height</a>."
     }
   ],
   "categories":[
@@ -65,7 +68,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -97,7 +102,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -124,7 +131,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -171,8 +180,8 @@
     }
   },
   "notes":"Partial support in IE9 refers to supporting \"vm\" instead of \"vmin\". All other partial support refers to not supporting the \"vmax\" unit.",
-  "usage_perc_y":49.12,
-  "usage_perc_a":20.96,
+  "usage_perc_y":59.62,
+  "usage_perc_a":11.1,
   "ucprefix":false,
   "parent":"",
   "keywords":"vm,viewport-percentage",

@@ -5,24 +5,24 @@
   "status":"cr",
   "links":[
     {
-      "url":"http://css-tricks.com/snippets/css/a-guide-to-flexbox/",
-      "title":"A Complete Guide to Flexbox"
-    },
-    {
       "url":"http://bennettfeely.com/flexplorer/",
       "title":"Flexbox CSS generator"
-    },
-    {
-      "url":"http://philipwalton.github.io/solved-by-flexbox/",
-      "title":"Examples on how to solve common layout problems with flexbox"
     },
     {
       "url":"http://www.adobe.com/devnet/html5/articles/working-with-flexbox-the-new-spec.html",
       "title":"Article on using the latest spec"
     },
     {
+      "url":"http://philipwalton.github.io/solved-by-flexbox/",
+      "title":"Examples on how to solve common layout problems with flexbox"
+    },
+    {
       "url":"http://dev.opera.com/articles/view/advanced-cross-browser-flexbox/",
       "title":"Tutorial on cross-browser support"
+    },
+    {
+      "url":"http://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "title":"A Complete Guide to Flexbox"
     }
   ],
   "bugs":[
@@ -30,13 +30,13 @@
       "description":"Firefox does not support specifying widths in percentages. <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=529761\">See bug</a>."
     },
     {
-      "description":"Containers with `display: flex` and `flex-direction: column` will not properly calculate their flexed childrens' sizes if the container has `min-height` but no explicit `height` property. <a href=\"https://connect.microsoft.com/IE/feedback/details/802625/min-height-and-flexbox-flex-direction-column-dont-work-together-in-ie-10-11-preview\">See bug</a>."
-    },
-    {
       "description":"IE10 and IE11 default values for `flex` are `0 0 auto` (<a href=\"http://www.css666.com/properties/flex\">see here</a>) rather than `0 1 auto`, as per the draft spec, as of September 2013."
     },
     {
       "description":"Firefox does not support flex-wrap, align-content properties. <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=702508\">See bug</a>"
+    },
+    {
+      "description":"In IE10 and IE11, containers with `display: flex` and `flex-direction: column` will not properly calculate their flexed childrens' sizes if the container has `min-height` but no explicit `height` property. <a href=\"https://connect.microsoft.com/IE/feedback/details/802625/min-height-and-flexbox-flex-direction-column-dont-work-together-in-ie-10-11-preview\">See bug</a>."
     }
   ],
   "categories":[
@@ -80,7 +80,9 @@
       "24":"a #3",
       "25":"a #3",
       "26":"a #3",
-      "27":"a #3"
+      "27":"a #3",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"a x #1",
@@ -112,7 +114,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"a x #1",
@@ -139,7 +143,9 @@
       "15":"y x",
       "16":"y x",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"a x #1",
@@ -185,9 +191,9 @@
       "10":"a x #2"
     }
   },
-  "notes":"Most partial support refers to supporting an <a href=\"http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/\">older version</a> of the specification or an <a href=\"http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/\">older syntax</a>. For Firefox 21+ it refers to lack of flex-wrap & flex-flow support.",
-  "usage_perc_y":37.88,
-  "usage_perc_a":37.66,
+  "notes":"Most partial support refers to supporting an <a href=\"http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/\">older version</a> of the specification or an <a href=\"http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/\">older syntax</a>. For Firefox 28- it refers to lack of flex-wrap & flex-flow support.",
+  "usage_perc_y":47.33,
+  "usage_perc_a":31.17,
   "ucprefix":false,
   "parent":"",
   "keywords":"flex",

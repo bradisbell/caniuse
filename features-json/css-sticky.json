@@ -1,33 +1,37 @@
 {
-  "title":"EOT - Embedded OpenType fonts",
-  "description":"Type of font that can be derived from a regular font, allowing small files and legal use of high-quality fonts. Usage is restricted by the file being tied to the website",
-  "spec":"http://www.w3.org/Submission/EOT/",
+  "title":"CSS position:sticky",
+  "description":"Keeps elements positioned as \"fixed\" or \"relative\" depending on how it appears in the viewport. As a result the element is \"stuck\" when necessary while scrolling.",
+  "spec":"http://dev.w3.org/csswg/css-position-3/#sticky-positioning",
   "status":"unoff",
   "links":[
     {
-      "url":"http://www.microsoft.com/typography/web/embedding/default.aspx",
-      "title":"Example pages"
+      "url":"http://docs.webplatform.org/wiki/css/properties/position",
+      "title":"WebPlatform Docs"
     },
     {
-      "url":"http://en.wikipedia.org/wiki/Embedded_OpenType",
-      "title":"Wikipedia"
+      "url":"https://developer.mozilla.org/en-US/docs/Web/CSS/position",
+      "title":"MDN article"
+    },
+    {
+      "url":"http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit",
+      "title":"HTML5Rocks"
     }
   ],
   "bugs":[
     
   ],
   "categories":[
-    "Other"
+    "CSS"
   ],
   "stats":{
     "ie":{
       "5.5":"n",
-      "6":"y",
-      "7":"y",
-      "8":"y",
-      "9":"y",
-      "10":"y",
-      "11":"y"
+      "6":"n",
+      "7":"n",
+      "8":"n",
+      "9":"n",
+      "10":"n",
+      "11":"n"
     },
     "firefox":{
       "2":"n",
@@ -102,8 +106,8 @@
       "5":"n",
       "5.1":"n",
       "6":"n",
-      "6.1":"n",
-      "7":"n"
+      "6.1":"y x",
+      "7":"y x"
     },
     "opera":{
       "9":"n",
@@ -129,8 +133,8 @@
       "4.0-4.1":"n",
       "4.2-4.3":"n",
       "5.0-5.1":"n",
-      "6.0-6.1":"n",
-      "7.0":"n"
+      "6.0-6.1":"y x",
+      "7.0":"y x"
     },
     "op_mini":{
       "5.0-7.0":"n"
@@ -168,11 +172,11 @@
       "10":"n"
     }
   },
-  "notes":"Proposal by Microsoft, being considered for W3C standardization.",
-  "usage_perc_y":19.83,
+  "notes":"",
+  "usage_perc_y":6.23,
   "usage_perc_a":0,
   "ucprefix":false,
-  "parent":"fontface",
+  "parent":"",
   "keywords":"",
   "shown":true
 }

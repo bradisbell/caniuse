@@ -5,16 +5,16 @@
   "status":"cr",
   "links":[
     {
+      "url":"http://nerget.com/rayjs-mt/rayjs.html",
+      "title":"Web Worker demo"
+    },
+    {
       "url":"https://developer.mozilla.org/En/Using_web_workers",
       "title":"MDN article"
     },
     {
       "url":"http://code.google.com/p/ie-web-worker/",
       "title":"Polyfill for IE (single threaded)"
-    },
-    {
-      "url":"http://nerget.com/rayjs-mt/rayjs.html",
-      "title":"Web Worker demo"
     },
     {
       "url":"http://net.tutsplus.com/tutorials/javascript-ajax/getting-started-with-web-workers/",
@@ -65,7 +65,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -97,7 +99,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"p",
@@ -124,7 +128,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -171,7 +177,7 @@
     }
   },
   "notes":"",
-  "usage_perc_y":70.53,
+  "usage_perc_y":72.37,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

@@ -53,7 +53,9 @@
       "24":"y x",
       "25":"y x",
       "26":"y x",
-      "27":"y x"
+      "27":"y x",
+      "28":"y x",
+      "29":"y x"
     },
     "chrome":{
       "4":"n",
@@ -85,7 +87,9 @@
       "30":"y x",
       "31":"y x",
       "32":"y x",
-      "33":"y x"
+      "33":"y x",
+      "34":"y x",
+      "35":"y x"
     },
     "safari":{
       "3.1":"n",
@@ -112,7 +116,9 @@
       "15":"y x",
       "16":"y x",
       "17":"y x",
-      "18":"y x"
+      "18":"y x",
+      "19":"y x",
+      "20":"y x"
     },
     "ios_saf":{
       "3.2":"n",
@@ -159,7 +165,7 @@
     }
   },
   "notes":"Prefixes are on the values, not the property names (e.g. -webkit-min-content) Firefox currently supports the \"-moz-available\" property rather than \"-moz-fill-available\".",
-  "usage_perc_y":51.68,
+  "usage_perc_y":56.1,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

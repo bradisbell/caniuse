@@ -65,8 +65,10 @@
       "23":"n",
       "24":"n",
       "25":"n",
-      "26":"u",
-      "27":"u"
+      "26":"n",
+      "27":"u",
+      "28":"u",
+      "29":"u"
     },
     "chrome":{
       "4":"n",
@@ -98,7 +100,9 @@
       "30":"y x",
       "31":"y x",
       "32":"y x",
-      "33":"y x"
+      "33":"y x",
+      "34":"y x",
+      "35":"y x"
     },
     "safari":{
       "3.1":"n",
@@ -125,7 +129,9 @@
       "15":"y x",
       "16":"y x",
       "17":"y x",
-      "18":"y x"
+      "18":"y x",
+      "19":"y x",
+      "20":"y x"
     },
     "ios_saf":{
       "3.2":"n",
@@ -172,7 +178,7 @@
     }
   },
   "notes":"Note that this property is significantly different from and incompatible with Microsoft's <a href=\"http://msdn.microsoft.com/en-us/library/ie/ms530752%28v=vs.85%29.aspx\">older \"filter\" property</a>.",
-  "usage_perc_y":40.55,
+  "usage_perc_y":43.31,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

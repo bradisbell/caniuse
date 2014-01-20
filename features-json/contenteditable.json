@@ -1,8 +1,8 @@
 {
   "title":"contenteditable attribute (basic support)",
   "description":"Method of making any HTML element editable",
-  "spec":"http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#contenteditable",
-  "status":"wd",
+  "spec":"http://www.w3.org/TR/html/editing.html#contenteditable",
+  "status":"cr",
   "links":[
     {
       "url":"http://html5demos.com/contenteditable",
@@ -13,12 +13,12 @@
       "title":"Blog post on usage problems"
     },
     {
-      "url":"http://docs.webplatform.org/wiki/html/attributes/contentEditable",
-      "title":"WebPlatform Docs"
-    },
-    {
       "url":"http://blog.whatwg.org/the-road-to-html-5-contenteditable",
       "title":"WHATWG blog post"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/html/attributes/contentEditable",
+      "title":"WebPlatform Docs"
     }
   ],
   "bugs":[
@@ -73,7 +73,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -105,7 +107,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"y",
@@ -132,7 +136,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -179,7 +185,7 @@
     }
   },
   "notes":"This support only refers to very basic editing capability, implementations vary significantly on how certain elements can be edited.",
-  "usage_perc_y":88.37,
+  "usage_perc_y":86.66,
   "usage_perc_a":0.09,
   "ucprefix":false,
   "parent":"",

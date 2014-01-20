@@ -5,16 +5,16 @@
   "status":"wd",
   "links":[
     {
-      "url":"http://paulirish.com/2011/requestanimationframe-for-smart-animating/",
-      "title":"Blog post"
+      "url":"http://hacks.mozilla.org/2011/08/animating-with-javascript-from-setinterval-to-requestanimationframe/",
+      "title":"Mozilla Hacks article"
     },
     {
       "url":"http://docs.webplatform.org/wiki/apis/timing/methods/requestAnimationFrame",
       "title":"WebPlatform Docs"
     },
     {
-      "url":"http://hacks.mozilla.org/2011/08/animating-with-javascript-from-setinterval-to-requestanimationframe/",
-      "title":"Mozilla Hacks article"
+      "url":"http://paulirish.com/2011/requestanimationframe-for-smart-animating/",
+      "title":"Blog post"
     }
   ],
   "bugs":[
@@ -63,7 +63,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -95,7 +97,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -122,7 +126,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -169,7 +175,7 @@
     }
   },
   "notes":"",
-  "usage_perc_y":67.13,
+  "usage_perc_y":69.35,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",

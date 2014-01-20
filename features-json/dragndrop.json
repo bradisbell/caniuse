@@ -5,16 +5,16 @@
   "status":"wd",
   "links":[
     {
+      "url":"http://docs.webplatform.org/wiki/dom/DragEvent",
+      "title":"WebPlatform Docs"
+    },
+    {
       "url":"http://html5doctor.com/native-drag-and-drop/",
       "title":"HTML5 Doctor article"
     },
     {
       "url":"http://html5demos.com/drag",
       "title":"Demo with link blocks"
-    },
-    {
-      "url":"http://docs.webplatform.org/wiki/dom/events/drag",
-      "title":"WebPlatform Docs"
     },
     {
       "url":"http://nettutsplus.s3.amazonaws.com/64_html5dragdrop/demo/index.html",
@@ -67,7 +67,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -99,7 +101,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"y",
@@ -126,7 +130,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -173,8 +179,8 @@
     }
   },
   "notes":"Partial support in older IE refers to no support for the dataTransfer.files or .types objects and limited supported formats for dataTransfer.setData/getData. dataTransfer.items only supported by google chrome",
-  "usage_perc_y":64.83,
-  "usage_perc_a":14.25,
+  "usage_perc_y":65.3,
+  "usage_perc_a":9.77,
   "ucprefix":false,
   "parent":"",
   "keywords":"draganddrop",

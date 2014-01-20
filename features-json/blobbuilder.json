@@ -57,7 +57,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -89,7 +91,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -116,7 +120,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -153,7 +159,7 @@
       "0":"y"
     },
     "and_chr":{
-      "0":"a x"
+      "0":"y"
     },
     "and_ff":{
       "0":"y"
@@ -163,8 +169,8 @@
     }
   },
   "notes":"Partial support refers to only supporting the now deprecated BlobBuilder to create blobs.",
-  "usage_perc_y":64.97,
-  "usage_perc_a":6.3,
+  "usage_perc_y":68.55,
+  "usage_perc_a":5.88,
   "ucprefix":true,
   "parent":"fileapi",
   "keywords":"",

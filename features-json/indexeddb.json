@@ -5,20 +5,20 @@
   "status":"wd",
   "links":[
     {
-      "url":"https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-indexeddb",
-      "title":"has.js test"
+      "url":"https://github.com/axemclion/IndexedDBShim",
+      "title":"Polyfill for browsers supporting WebSQL"
     },
     {
       "url":"http://docs.webplatform.org/wiki/apis/indexedDB",
       "title":"WebPlatform Docs"
     },
     {
-      "url":"https://github.com/axemclion/IndexedDBShim",
-      "title":"Polyfill for browsers supporting WebSQL"
-    },
-    {
       "url":"http://hacks.mozilla.org/2010/06/comparing-indexeddb-and-webdatabase/",
       "title":"Mozilla Hacks article"
+    },
+    {
+      "url":"https://raw.github.com/phiggins42/has.js/master/detect/features.js#native-indexeddb",
+      "title":"has.js test"
     }
   ],
   "bugs":[
@@ -67,7 +67,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"n",
@@ -99,7 +101,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -126,7 +130,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -173,8 +179,8 @@
     }
   },
   "notes":"Partial support in BB10 refers to an <a href=\"http://www.w3.org/TR/2011/WD-IndexedDB-20110419/\">outdated specification</a> being implemented. Code targeting the <a href=\"http://www.w3.org/TR/IndexedDB/\">current state of the specification</a> might not work.",
-  "usage_perc_y":59.46,
-  "usage_perc_a":1.68,
+  "usage_perc_y":60.88,
+  "usage_perc_a":1.52,
   "ucprefix":false,
   "parent":"",
   "keywords":"indexdb",

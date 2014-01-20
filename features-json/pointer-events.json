@@ -16,6 +16,9 @@
   "bugs":[
     {
       "description":"Does not work on SVG elements in Safari 5.1 or  Android <= 4.1."
+    },
+    {
+      "description":"Does not work on links in IE11."
     }
   ],
   "categories":[
@@ -59,7 +62,9 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y"
     },
     "chrome":{
       "4":"y",
@@ -91,7 +96,9 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y"
     },
     "safari":{
       "3.1":"n",
@@ -118,7 +125,9 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y"
     },
     "ios_saf":{
       "3.2":"y",
@@ -165,7 +174,7 @@
     }
   },
   "notes":"Already part of the SVG specification, and all SVG-supporting browsers appear to support the property on SVG elements.",
-  "usage_perc_y":63.82,
+  "usage_perc_y":72.81,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
