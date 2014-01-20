@@ -15,7 +15,7 @@
   ],
   "bugs":[
     {
-      "description":"Chrome for Android does not support getUserMedia in conjunction with the Web Audio API."
+      "description":"Chrome for Android <32.0 does not support getUserMedia in conjunction with the Web Audio API."
     },
     {
       "description":"Until version 12.16, Opera supported <a href=\"http://my.opera.com/community/forums/topic.dml?id=1528992\">video context only</a>."
